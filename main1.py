@@ -1,8 +1,6 @@
 import telebot
 import sqlite3
 
-bot = telebot.TeleBot('6671431226:AAHHShH1L2z7mLn5FHMsLg1gUK0tZKxXtEQ')
-name = None
 
 
 @bot.message_handler(commands=['start'])
